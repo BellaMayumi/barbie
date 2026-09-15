@@ -1,68 +1,220 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(255, 203, 235);
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
+body {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 190, 233);
+
+}
+
+
+
+
+header {
+
+    background-color: rgb(255, 143, 221);
+    color: rgb(197, 22, 109);
+    font-family: Georgia, serif;
+    font-weight: bold;
+    padding: 25px 35px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header small {
+
+    color: rgb(220, 20, 120);
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+
 h1 {
-    text-align:left;
-    margin-top: 30px;
+
+    font-family: Georgia, serif;
+    color: rgb(197, 22, 109);
+    text-align: left;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 0;
+
 }
 
 h2 {
+
+    font-family: Georgia, serif;
+    font-size: 35px;
+    color: rgb(197, 22, 109);
     text-align: left;
-    margin-top: 30px;
-}
-header {
-    background-color: rgb(253, 52, 210);
-    color: white;
-    padding: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+
 }
 
+
 main {
-    padding: 30px;
+
+    background-color: rgb(245, 213, 235);
+    padding: 30px 35px;
+
 }
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+    border-radius: 20%;
+}
+
+
 
 #introducao {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 30px;
-    background-color: lightblue;
+    padding: 20px;
+    background-color: rgb(255, 190, 233);
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 #introducao img {
-    width: 350px;
-    height: 350px;
+
+    width: 450px;
+    height: 250px;
+    
 }
 
+#introducao p{
+
+    color: rgb(117, 13, 65);
+    font-size: 16px;
+    font-family: Georgia, serif;
+
+}
+
+#filmes > small {
+
+    color: rgb(220, 20, 120);
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+
+#filmes > h2 {
+
+    font-family: Georgia, serif;
+    font-size: 35px;
+    color: rgb(197, 22, 109);
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+
+
+
 #cards {
+
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px;
-}
+    margin-top: 20px;
 
-.card {
-    background-color: white;
-    padding: 20px;
-    width: 30%;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 20px;
-    height: 300px;
-    object-fit: cover;
 }
 
 .card p {
+
+    color: rgb(143, 0, 83);
+
+}
+
+.card {
+
+    background-color: white;
+    padding: 15px;
+    width: 32%;
+    border-radius: 20px;
+    text-align: left;
+
+}
+
+
+.card img {
+
+    width: 100%;
+    border-radius: 20px;
+    height: 350px;
+    object-fit: cover;
+
+}
+
+
+
+.card h3 {
+
+    margin: 10px;
+
+}
+
+
+
+.card p {
+
     margin-top: 10px;
     font-weight: bold;
+    font-family: Georgia, serif;
+
+
 }
+
+small {
+
+    color: rgb(220, 20, 120);
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+
+
+footer {
+
+    padding: 20px 35px;
+    border-top: 1px solid rgb(215, 210, 225);
+
+}
+
+
+footer p {
+
+    font-size: 11px;
+
+}
+
+#rodape {
+
+    margin-top: 30px;
+    font-family: Georgia, serif;
+    color: rgb(143, 0, 83);
+
+}
+
+
