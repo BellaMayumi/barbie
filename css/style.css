@@ -18,7 +18,7 @@ body {
 
 header {
 
-    background-color: rgb(255, 143, 221);
+    background-color: rgb(252, 134, 203);
     color: rgb(197, 22, 109);
     font-family: Georgia, serif;
     font-weight: bold;
@@ -54,7 +54,7 @@ h1 {
 h2 {
 
     font-family: Georgia, serif;
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(197, 22, 109);
     text-align: left;
     margin-top: 10px;
@@ -65,7 +65,7 @@ h2 {
 
 main {
 
-    background-color: rgb(245, 213, 235);
+    background-color: rgb(253, 228, 245);
     padding: 30px 35px;
 
 }
@@ -97,7 +97,7 @@ main {
 
     width: 450px;
     height: 250px;
-    
+
 }
 
 #introducao p{
@@ -161,7 +161,7 @@ main {
 
     width: 100%;
     border-radius: 20px;
-    height: 350px;
+    height: 200px;
     object-fit: cover;
 
 }
@@ -216,5 +216,3 @@ footer p {
     color: rgb(143, 0, 83);
 
 }
-
-
